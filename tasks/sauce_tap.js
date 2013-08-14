@@ -27,6 +27,10 @@ module.exports = function(grunt) {
         results.fail.forEach(function(t) {
             grunt.log.error('Test #' + t.number + ': ' + t.name + ' failed.')
         });
+
+        results.errors.forEach(function(e) {
+            grunt.log.error('TAP parsing error: ' + e.message);
+        });
     }
 
     function task() {
@@ -85,7 +89,7 @@ module.exports = function(grunt) {
                 grunt.log.error(err);
                 success = false;
             }
-            
+
             runner.close(function() {
                 done(success);
             });

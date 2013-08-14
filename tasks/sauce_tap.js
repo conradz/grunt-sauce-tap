@@ -56,7 +56,7 @@ module.exports = function(grunt) {
 
         runner.on('tunnel', function() {
             grunt.log.writeln('Sauce Connect tunnel connected.');
-        })
+        });
 
         var success = true;
 
@@ -81,6 +81,11 @@ module.exports = function(grunt) {
         }
 
         function complete(err, results) {
+            if (err) {
+                grunt.log.error(err);
+                success = false;
+            }
+            
             runner.close(function() {
                 done(success);
             });

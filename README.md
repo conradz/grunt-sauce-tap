@@ -1,5 +1,7 @@
 # grunt-sauce-tap
 
+[![Build Status](https://travis-ci.org/conradz/grunt-sauce-tap.png?branch=master)](https://travis-ci.org/conradz/grunt-sauce-tap)
+
 Run TAP tests in the browser using Sauce Labs.
 
 

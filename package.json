@@ -33,7 +33,7 @@
   },
 
   "dependencies": {
-    "sauce-tap-runner": "0.0.1",
+    "sauce-tap-runner": "0.0.2",
     "async": "~0.2.9"
   },
 

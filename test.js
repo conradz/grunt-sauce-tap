@@ -1,3 +1,4 @@
+// This test file is run in the browser
 (function() {
     console.log('TAP version 13');
     console.log('# beep');

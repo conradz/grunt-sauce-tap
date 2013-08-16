@@ -5,6 +5,9 @@
 
 Run TAP tests in the browser using Sauce Labs.
 
+This module wraps [sauce-tap-runner](https://npmjs.org/package/sauce-tap-runner)
+in a Grunt task, for easier automation.
+
 
 ## Getting Started
 

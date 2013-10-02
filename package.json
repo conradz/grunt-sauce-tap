@@ -1,6 +1,6 @@
 {
   "name": "grunt-sauce-tap",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Run TAP tests in the browser with Sauce Labs, automated with Grunt",
   "keywords": [
     "grunt",

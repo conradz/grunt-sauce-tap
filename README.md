@@ -1,6 +1,8 @@
 # grunt-sauce-tap
 
-[![Build Status](https://travis-ci.org/conradz/grunt-sauce-tap.png?branch=master)](https://travis-ci.org/conradz/grunt-sauce-tap)
+[![NPM](https://nodei.co/npm/grunt-sauce-tap.png?compact=true)](https://nodei.co/npm/grunt-sauce-tap/)
+
+[![Build Status](https://drone.io/github.com/conradz/grunt-sauce-tap/status.png)](https://drone.io/github.com/conradz/grunt-sauce-tap/latest)
 [![Dependency Status](https://gemnasium.com/conradz/grunt-sauce-tap.png)](https://gemnasium.com/conradz/grunt-sauce-tap)
 
 Run TAP tests in the browser using Sauce Labs.

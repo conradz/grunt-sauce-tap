@@ -1,9 +1,0 @@
-language: node_js
-node_js:
-  - 0.10
-
-env:
-  global:
-    # Sauce Labs credentials
-    - secure: tTelR0Tsy9EqI612NQvCNO4m76vBEGmmfedY0Y9qqBG5gwFFFj1TduBdH831+vmRjJ3X2rH/THgOfnf5EBE0jgCdpos1IoYGH4wojfwZU7ndh1zLB6LDOEUDbrAerfvn3kocpN6ecYAS9tdVxVUsFAJuFqPHNFgcvltWJidu628=
-    - secure: Jfb3n5cPTCdZftz6O26Pd2/RFtCthP1Pc/5S5GDg7JFrl95Y6pbFJwL5MVTlAMQeRZEI/U3WiG1YwejLA0ifRGv+eio3boxKVXSEvPmCzw9KW5laZyuwmjF3sag/Rk9bIfbSIzb1Nui/NAvu9dd8hZAB38bHtiHK4IYoPQpos7A=

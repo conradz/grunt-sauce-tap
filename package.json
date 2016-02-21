@@ -11,10 +11,8 @@
     "test",
     "testing"
   ],
-
   "author": "Conrad Zimmerman <me@conradz.com>",
   "license": "BSD",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/conradz/grunt-sauce-tap.git"
@@ -22,21 +20,17 @@
   "bugs": {
     "url": "https://github.com/conradz/grunt-sauce-tap/issues"
   },
-
   "main": "Gruntfile.js",
   "scripts": {
     "test": "grunt test"
   },
-
   "peerDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": ">=0.4.0"
   },
-
   "dependencies": {
     "sauce-tap-runner": "~0.1.0",
     "async": "~0.2.9"
   },
-
   "devDependencies": {
     "grunt-cli": "*",
     "grunt": "~0.4.1"
